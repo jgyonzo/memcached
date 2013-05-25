@@ -1,5 +1,5 @@
 #!/bin/sh
-
+#hola
 if git describe | sed s/-/_/g > version.num.tmp
 then
     mv version.num.tmp version.num
